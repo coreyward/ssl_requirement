@@ -10,7 +10,7 @@ Rails 3.1's [ForceSSL](https://github.com/rails/rails/blob/master/actionpack/lib
 
 ## Example:
 
-    class ApplicationController < ActiveRecord::Base
+    class ApplicationController < ActionController::Base
       include SslRequirement
     end
 
